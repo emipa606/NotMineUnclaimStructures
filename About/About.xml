@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Not Mine - Unclaim Structures (Continued)</name>
+  	<packageId>Mlie.NotMineUnclaimStructures</packageId>
+	<author>Neon1028</author>
+	<url>https://github.com/emipa606/NotMineUnclaimStructures</url>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<modDependencies />
+	<loadAfter />
+	<description>Update of Neon1028s mod for RimWorld 1.1
+https://steamcommunity.com/sharedfiles/filedetails/?id=1575680734
+
+[img]https://i.imgur.com/GYswkZ7.png[/img]
+
+[img]https://raw.githubusercontent.com/emipa606/RimWorld-Wrapper/master/Notice.png[/img]
+
+Support-chat:
+https://invite.gg/mlie
+
+Non-steam version:
+https://github.com/emipa606/NotMineUnclaimStructures
+	
+--- Original Description ---
+Unclaim structures and buildings causing enemies to not target those structures and colonist to not repair them.
+
+If you’re like me then you like digging yourself into the side of a mountain, setting up the perfect hallway of death, then accidently mining out a tile you didn’t mean to. Now your perfect killway is ruined by that one little nook that some jerk with a sniper rifle is going to use for cover. You could just fill it in with a wall, but now all the raiders are hung up punching that tiny patch of steel wall. Well no more!
+
+This mod adds a new command under the orders tab that allows you to unclaim structures. When a structure is unclaimed it will (mostly) be treated like ruins, colonist will not repair or use it and enemies are much less likely to attack it. It will no longer count towards the wealth of your colony and can be re-claimed whenever you want. Unclaimed turrets and defences will be considered hostile, so watch out.
+
+**Warning: Be careful using this mod**
+It works with existing saves and has not caused any bugs or errors that I’ve seen, BUT there are some things I feel like I need to explain and I would really recommend you read the next bit.
+
+How it works:
+The code for Rimworld doesn’t really allow for anything to be “unclaimed” by a faction. Once an object has it’s faction set the game will not allow it to go back to having a null faction. So, to work around that this mod doesn’t actually allow you to unclaim anything. Instead, when used on a structure, it sets the faction of that structure to be the Insects. Ya, apparently those jelly eating jerks have their own faction.
+
+Reaction By Faction:
+Your colonist and Allied Factions: treat it like it’s not there. Like the ruins on the map when you spawn.
+Hostile Factions: can target it, but the priority is so small they will attack basically anything else. They will dig through walls if it’s the only/quickest route, as they would stone.
+Insects: don’t react to it at all. They will not be draw to unclaimed structures and they will not become hostile if the structure is attacked, destroyed, or reclaimed.
+The building itself: is technically hostile. Since the insects are a hostile faction, anything unclaimed will be on their side. So if you try to unclaim a turret, well then you just gave the bugs a gun and they will tell it to shooting you.
+
+Balancing Problems:
+I made this mod with the intent to only use it on walls I had to build to patch up my otherwise natural stone defences. However, after playing around with it I found that, if abused, this mod can be used to heavily manipulate the enemy AI. With the right set up you can get where most raids just wander around before giving up and leaving. I guess my point is: use sparingly, otherwise you will end up with a really boring game.</description>
+</ModMetaData>
+
